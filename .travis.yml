@@ -1,6 +1,9 @@
 language: python
 python:
 - '3.6'
+install:
+- pip install yaml
+- pip install pprint
 script:
 - python graph.py example2.yml A
 notifications:
