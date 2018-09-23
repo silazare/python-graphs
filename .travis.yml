@@ -1,9 +1,10 @@
 language: python
+sudo: required
 python:
 - '3.6'
-install:
-- pip install yaml
-- pip install pprint
+before_install:
+- sudo apt-get install -y python3-pip
+- sudo pip3 install pyyaml
 script:
 - python graph.py example2.yml A
 notifications:
