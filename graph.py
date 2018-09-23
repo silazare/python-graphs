@@ -12,7 +12,7 @@ def graph_parse(gfile):
 
 def dfs(graph, start):
     '''depth-first search algorithm'''
-	visited = []
+    visited = []
     select = [start]
     while select:
         try:
