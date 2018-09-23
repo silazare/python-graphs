@@ -18,13 +18,13 @@ def dfs(graph, start):
         try:
             node = select.pop(0)
             if node not in visited:
-				#print('visited node -', node)
+	       #print('visited node -', node)
                 visited = visited+[node]
                 select = graph[node]+select
         except KeyError:
             print('Wrong graph, please check all node edges!')
             sys.exit()
-	#print('====')
+           #print('====')
     return visited
 
 def bfs(graph, start):
@@ -35,13 +35,13 @@ def bfs(graph, start):
       try:
           node = select.pop(0)
           if not node in visited:
-			  #print('visited node -', node)
+	     #print('visited node -', node)
               visited = visited+[node]
               select = select+graph[node]
       except KeyError:
             print('Wrong graph, please check all node edges!')
             sys.exit()
-  #print('====')
+ #print('====')
   return visited
 
 
