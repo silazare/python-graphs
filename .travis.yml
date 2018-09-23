@@ -1,9 +1,8 @@
 language: python
-
 python:
-
-  - "3.6"
-
-script: 
-
-  - python graph.py example2.yml A
+- '3.6'
+script:
+- python graph.py example2.yml A
+notifications:
+  slack:
+    secure: 635sBopz4A6NW4lBdcab9uL7ePD4q4qIFBmVyi3+EEBQjYaPHVHgmYTbZtL01LNtWDyNiX/T/n3e/848F3DgxTJKS3tdAA1Dr1Ncj3DYRLDCX4vz2i0+cfPRDvEsjRhXLfWxni1XAvFr+8i1g0Wbr/85SLhrYVfgJqfrUtyrf0GdPdQL0R/n7cRqP9egeXgHHJIGylBpfNej1jWu28bWhCibYuvW+hk17AEyx3Cl5e771NuGyKu9YOFKWZh0FEHeeeB4vEVdIeCZQMJdyK4mlXsjOZ39Q45/FWOj9SAhp2rpZG1+Gj+TzdhGUGF8bGzMtVijonnKlT7XyemEQIwu33+2cmZ60EJtiG9SRuoMOqQ3C+EDdBeZq7bMKRMiANonf5L/XlWiOe5bQTs730BWt8n2AY1VBi8dT9CjbmNIOq6kXEezjmRmpcnPNViYjfpzwlT61KWkkGVMRyaNftGuNboCveLdvZpdSNs3eSYvFbWmoSbVdT+1VD/o3rmOHAcuamavDXafMONr2I/vib35pAxPn4og5bTAJAeA0/TBeUjhGnot3hVmZDehR/qS6ZKfN8oJlRlEWxSC4S3mFvTiv8QBCkjFm55pB+9ykFLruZq9J1BnDQdMQr5kuYLRbIy3SJy/su+ZunNcH1YG5WuHIPe/iB5YeN0ZInkXQSFtY9c=
