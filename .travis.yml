@@ -1,10 +1,8 @@
 language: python
-sudo: required
 python:
 - '3.6'
-before_install:
-- sudo apt-get install -y python3-pip
-- sudo pip3 install pyyaml
+install:
+- pip install -r requirements.txt
 script:
 - python graph.py example2.yml A
 notifications:
