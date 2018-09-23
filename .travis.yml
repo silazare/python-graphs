@@ -1,0 +1,9 @@
+language: python
+
+python:
+
+  - "3.6"
+
+script: 
+
+  - python graph.py example2.yml A
