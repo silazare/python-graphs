@@ -1,5 +1,7 @@
 ## Graph search algoritms script
 
+[![Build status](https://travis-ci.org/silazare/python-graphs.svg?master)](https://travis-ci.org/silazare)
+
 This script is prepared for undirected graph visiting round.
 Expected input is an undirected graph and node from which we should start to search.
 Some graph examples are attached.
